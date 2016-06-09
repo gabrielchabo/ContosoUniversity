@@ -18,7 +18,7 @@ namespace ContosoUniversity.Models
         //? indicates that the Grade property is nullable
         public Grade? Grade { get; set; }
 
-        public virtual Course course { get; set; }
-        public virtual Student student { get; set; }
+        public virtual Course Course { get; set; }
+        public virtual Student Student { get; set; }
     }
 }
