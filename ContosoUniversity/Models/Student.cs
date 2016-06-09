@@ -11,6 +11,7 @@ namespace ContosoUniversity.Models
         public string LastName { get; set; }
         public string FirstMidName { get; set; }
         public DateTime EnrollmentDate { get; set; }
+        public string EmailAddress { get; set; }
 
         /*
          * Navigation properties are typically defined as virutal so that they can
